@@ -32,3 +32,6 @@ gopath
 build
 dist
 
+_workspace
+.idea
+
