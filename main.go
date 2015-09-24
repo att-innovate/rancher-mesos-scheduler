@@ -4,9 +4,9 @@ import (
 	"os"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/rancher/rancher-mesos-scheduler/handlers"
-	"github.com/rancher/rancher-mesos-scheduler/scheduler"
-	"github.com/rancherio/go-machine-service/events"
+	"github.com/att-innovate/rancher-mesos-scheduler/handlers"
+	"github.com/att-innovate/rancher-mesos-scheduler/scheduler"
+	"github.com/rancher/go-machine-service/events"
 )
 
 var (
@@ -39,7 +39,7 @@ func main() {
 	}()
 
 	router, err := events.NewEventRouter("rancherMesosScheduler", 2000, apiUrl, accessKey, secretKey,
-		nil, eventHandlers, 10)
+		nil, eventHandlers, "mesos", 10)
 	if err != nil {
 		log.WithFields(log.Fields{
 			"Err": err,

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/rancher/rancher-mesos-scheduler/tasks"
-	"github.com/rancherio/go-machine-service/events"
-	"github.com/rancherio/go-rancher/client"
+	"github.com/att-innovate/rancher-mesos-scheduler/tasks"
+	"github.com/rancher/go-machine-service/events"
+	"github.com/rancher/go-rancher/client"
 )
 
 const (
