@@ -50,6 +50,8 @@ func main() {
 			log.WithFields(log.Fields{
 				"Err": err,
 			}).Error("Unable to start EventRouter")
+		} else {
+			log.Info("router.Start excited without error ...")
 		}
 	}
 	log.Info("Exiting rancher-mesos-scheduler...")
