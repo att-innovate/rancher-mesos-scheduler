@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/rancher/go-machine-service/events"
+	"github.com/att-innovate/go-machine-service/events"
 	"github.com/rancher/go-rancher/client"
 	"time"
 )

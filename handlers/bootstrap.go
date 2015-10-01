@@ -8,7 +8,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/att-innovate/rancher-mesos-scheduler/tasks"
-	"github.com/rancher/go-machine-service/events"
+	"github.com/att-innovate/go-machine-service/events"
 	"github.com/rancher/go-rancher/client"
 )
 

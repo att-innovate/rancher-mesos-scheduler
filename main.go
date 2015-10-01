@@ -6,7 +6,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/att-innovate/rancher-mesos-scheduler/handlers"
 	"github.com/att-innovate/rancher-mesos-scheduler/scheduler"
-	"github.com/rancher/go-machine-service/events"
+	"github.com/att-innovate/go-machine-service/events"
 )
 
 var (
