@@ -14,8 +14,13 @@
 		},
 		{
 			"ImportPath": "github.com/att-innovate/go-machine-service/events",
-			"Comment": "v0.17.0",
-			"Rev": "ecc762f6877af82d7c6f56cae2a50045951f8af1"
+			"Comment": "v0.17.0-3-gcc5dcc8",
+			"Rev": "cc5dcc8a28538208983c2bbd72eb56e6ece77b48"
+		},
+		{
+			"ImportPath": "github.com/att-innovate/go-machine-service/locks",
+			"Comment": "v0.17.0-3-gcc5dcc8",
+			"Rev": "cc5dcc8a28538208983c2bbd72eb56e6ece77b48"
 		},
 		{
 			"ImportPath": "github.com/gogo/protobuf/proto",
@@ -60,11 +65,6 @@
 		{
 			"ImportPath": "github.com/mesos/mesos-go/upid",
 			"Rev": "83b52d7f648d2a2fa91330123d348d4090be2aed"
-		},
-		{
-			"ImportPath": "github.com/rancher/go-machine-service/locks",
-			"Comment": "v0.17.0",
-			"Rev": "ecc762f6877af82d7c6f56cae2a50045951f8af1"
 		},
 		{
 			"ImportPath": "github.com/rancher/go-rancher/client",
