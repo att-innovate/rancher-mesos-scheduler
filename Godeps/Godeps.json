@@ -14,13 +14,13 @@
 		},
 		{
 			"ImportPath": "github.com/att-innovate/go-machine-service/events",
-			"Comment": "v0.17.0-3-gcc5dcc8",
-			"Rev": "cc5dcc8a28538208983c2bbd72eb56e6ece77b48"
+			"Comment": "v0.17.0-5-gc04fbf5",
+			"Rev": "c04fbf5b85a9781935c35c81bee50f588bbb33e2"
 		},
 		{
 			"ImportPath": "github.com/att-innovate/go-machine-service/locks",
-			"Comment": "v0.17.0-3-gcc5dcc8",
-			"Rev": "cc5dcc8a28538208983c2bbd72eb56e6ece77b48"
+			"Comment": "v0.17.0-5-gc04fbf5",
+			"Rev": "c04fbf5b85a9781935c35c81bee50f588bbb33e2"
 		},
 		{
 			"ImportPath": "github.com/gogo/protobuf/proto",
